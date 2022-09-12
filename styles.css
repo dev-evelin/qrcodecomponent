@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(212, 45%, 89%);
+  font-size: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ==================================  
+      Typography
+================================== */
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1.1rem;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  margin-top: 1.25rem;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+/* ==================================  
+      Layout
+================================== */
+
+.container {
+  max-width: 375px;
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+  padding: 1.25rem;
+  border-radius: 14px;
+  text-align: center;
+  margin: 0 1rem;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.text {
+  padding: 1.2rem 0.8rem;
+}
+
+/* ==================================  
+      Footer
+================================== */
+.attribution {
+  margin-top: 2em;
+  font-size: 0.75rem;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+.attribution a {
+  color: hsl(216, 63%, 63%);
+}
